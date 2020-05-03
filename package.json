@@ -290,6 +290,11 @@
                 "when": "editorTextFocus && editorLangId == juliamarkdown"
             },
             {
+                "command": "language-julia.executeJuliaFileInREPL",
+                "key": "shift+alt+Enter",
+                "when": "editorTextFocus && editorLangId == julia"
+            },
+            {
                 "command": "language-julia.plotpane-previous",
                 "key": "left",
                 "when": "jlplotpaneFocus"
